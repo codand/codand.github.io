@@ -3,7 +3,7 @@
 "productName": "Unity3DPortals",
 "productVersion": "1.0",
 "dataUrl": "WebBuild.data.unityweb",
-"wasmCodeUrl": "WebBuild.wasm",
+"wasmCodeUrl": "WebBuild.wasm.code.unityweb",
 "wasmFrameworkUrl": "WebBuild.wasm.framework.unityweb",
 "graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
