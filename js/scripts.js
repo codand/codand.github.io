@@ -41,6 +41,7 @@
     });
 
     var figure = $(".video").hover( hoverVideo, hideVideo );
+    var figure = $(".video").click( clickVideo );
 
     function hoverVideo(e) {  
         $('video', this).get(0).play(); 
@@ -48,5 +49,11 @@
 
     function hideVideo(e) {
         $('video', this).get(0).pause(); 
+    }
+
+    function clickVideo(e) {
+        var vid = $('video', this).get(0);
+        var muted = vid.muted;
+        vid.muted = !vid.muted;
     }
 })(jQuery); // End of use strict
